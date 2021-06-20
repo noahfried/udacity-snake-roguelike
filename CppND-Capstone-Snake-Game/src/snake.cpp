@@ -2,7 +2,7 @@
 #include <cmath>
 #include <iostream>
 #include <random>
-void GenerateSpeed() {
+void Snake::GenerateSpeed() {
 	float randomSpeed;
   	std::random_device rd;
   	std::mt19937 gen(rd());

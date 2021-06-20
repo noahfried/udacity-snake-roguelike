@@ -85,3 +85,4 @@ void Game::Update() {
 
 int Game::GetScore() const { return score; }
 int Game::GetSize() const { return snake.size; }
+float Game::GetSpeed() const { return snake.speed; }
