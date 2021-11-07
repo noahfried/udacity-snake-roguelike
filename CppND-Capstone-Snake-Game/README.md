@@ -9,15 +9,8 @@ This application serves as a snake roguelike game, in which the speed of the sna
 ##File and Class Structure
 The application is divided into the controller, game, renderer, and snake files. The stats for the snake are generated within the snake class.
 
-## How this Satisfies the Rubric
-1.  The project demonstrates an understanding of C++ functions and control structures. (snake.cpp line 5)
-2.  The project accepts user input and processes the input. (main.cpp line 22)
-3.  The project uses Object Oriented Programming techniques. (snake.h, snake.cpp, game.cpp, game.h)
-4.  Classes use appropriate access specifiers for class members. (snake.h line 34)
-5.  Class constructors utilize member initialization lists. (snake.h line 11)
-6.  Classes encapsulate behavior. (snake.h, game.h)
-7.  The project makes use of references in function declarations. (controller.h lines 8 and 11, snake.h line 36)
-8. The project uses destructors appropriately. (renderer.h line 12)
+## Roguelike Elements
+The snake starts with a randomly generated speed upon each new run, providing the player with a refreshing and new experience each time.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
